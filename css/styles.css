@@ -26,7 +26,7 @@ p {
 .title {
     display: flex;
     height: 100px;
-    background-image: url("./images/ppalettecircles.png");
+    background-image: url("../images/ppalettecircles.png");
     background-position: right;
     background-repeat: no-repeat;
     background-size:contain;
@@ -146,7 +146,7 @@ a.btn {
     list-style: none;
     margin:0;
     padding:0;
-    gap: 40px; /*not sure why this works...*/
+    gap: 40px;
 }
 
 
