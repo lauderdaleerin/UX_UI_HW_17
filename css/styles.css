@@ -1,0 +1,121 @@
+
+body {
+    font-family: Jura;
+    background-color: #F8E8DA;
+}
+
+h1 {
+    font-family: 'Nova Round';
+    font-size: 45px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: black;
+    margin: 40px 0 10px 0;
+    height: 50px;
+
+}
+
+.navlink {
+    display: flex;
+    list-style: none;
+    margin: auto;
+    padding: 0;
+}
+
+a .navlink {
+    color: white;
+    text-decoration: none;
+}
+
+.header-circles {
+    display: flex;
+    position: absolute;
+    justify-content: right; /*absolutely positioned items can't be justified, needs to be positioned another way*/
+    width: 296px;
+    height: 88px;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.heroimg {
+    display: flex;
+    width: 189.5px;
+    height:187px;
+}
+
+.herotxt {
+    display: flex;
+    text-align: right;
+    font-size: 22px
+}
+
+.card {
+    color: white;
+    background-color: black;
+    border-radius: 8px;
+    padding: 5px;
+    box-shadow: 0px 4px 4px rgba (0, 0, 0, 0.25); /*box shadows arent working */
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background-color: #2DDD29;
+    box-shadow: 0px 4px 4px rgba (0, 0, 0, 0.25);
+    border-radius: 8px;
+    font-family: 'Nova Round';
+    font-size: 28px;
+    margin: 40px;
+}
+
+.footerimg {
+    display: flex;
+    justify-content: center; /* not currently centered */
+    align-items: center;
+    width: 50px;
+    height: 50px;
+}
+
+.footernav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.footer-btn {
+    display: flex;
+    width: 45px;
+    height: 45px;
+
+}
+
+#home {
+    background-color: #F2357B;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px black;
+}
+
+#mail {
+    background-color: #2DDD29;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px black;
+}
+
+#linkedin {
+    background-color: #F28705;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px black;
+}
