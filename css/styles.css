@@ -9,6 +9,21 @@ h1 {
     font-size: 45px;
 }
 
+.title {
+    display: flex;
+    height: 80px;
+    background-image: url("/images/ppalettecircles.png");
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size:contain;
+}
+
+.titletxt {
+    display: flex;
+    align-items: baseline;
+}
+
+
 .navbar {
     display: flex;
     align-items: center;
