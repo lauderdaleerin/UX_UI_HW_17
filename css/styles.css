@@ -18,6 +18,7 @@ a:link, a:visited {
     font-size: 20px;
 }
 
+
 p {
     font-family: Jura;
     font-size: 20px;
@@ -30,6 +31,25 @@ p {
     right:15px;
     height:100px;
     z-index: -1;
+}
+
+.circle {
+    width:100px;
+    height:100px;
+    border-radius:50%;
+    margin-right: 10px;
+}
+
+#orange {
+    background-image: radial-gradient(#F28705, rgba(215, 111, 0, 0), transparent 100px);
+}
+
+#pink {
+    background-image: radial-gradient(#F2357B, rgba(215, 0, 186, 0), transparent 100px);
+}
+
+#green {
+    background-image: radial-gradient(#2DDD29, rgba(21, 215, 0, 0), transparent 100px);
 }
 
 
@@ -66,6 +86,7 @@ p {
     margin: auto;
     padding: 0;
 }
+
 
 #active {
     text-decoration: underline solid 5px #F28705;
@@ -106,6 +127,7 @@ p {
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
     max-width: 800px;
 }
+
 
 p.card {
     margin-block-start: none;
