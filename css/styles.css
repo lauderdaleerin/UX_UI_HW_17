@@ -4,6 +4,23 @@ body {
     background-color: #F8E8DA;
 }
 
+@media screen (min-width:730px) { 
+    h1 {
+        font-size: 60px;
+    }
+    a:link, a:visited {
+        font-size:25px;
+    }
+    p {
+        font-size:25px;
+    }
+    a.btn {
+        font-size: 35px;
+
+    }
+ }
+
+
 h1 {
     font-family: 'Nova Round';
     font-size: 45px;
